@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Services</title>
+</head>
+<body>
+    <section class="section">
+        <img src="images/calabanga church.jpg" class="background"/>
+        <div class="header">
+            <div class="navbar">
+                <ul class="nav">
+                    <li>
+                        <div class="logo">
+                            <img class="seal" src="images/logo seal.png" alt="logo">
+                        </div>
+                    </li>
+                    <li>
+                        <ul class="list">
+                            <li><a href="Home.html">Home</a></li>
+                            <li><a href="About.html">About</a></li>
+                            <li><a href="Services.html">Services</a></li>
+                            <li><a href="Announcement.html">Announcement</a></li>
+                            <li><a href="Contact.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="imahe">
+            <div class="landing">
+                <h1>SERVICES</h1>
+                <p>The volunteers work together to Clean, </p>
+                <p> Repair, and Improve public spaces or other areas </p>
+                <p>that have been neglected, vandalized, or misused.</p>
+                
+            </div>
+            
+
+            <div class="disc"> Rabuz
+                <p style="font-size: 20px;">In the barangay of Pagatgat, Calabanga the rabuz activity is held once a week.</p>
+                <p style="font-size: 20px;">The bayanihan cleaning is open to everyone involved in this activity, including barangay leaders and youth.</p>
+                <p style="font-size: 20px;">This is to keep their immediate surroundings clean and orderly.</p>
+               
+            </div>
+            <img class="officials" src="images/rabuz.jpg" alt="">
+            <div class="disc"> Tupad
+                <p style="font-size: 20px;">Tupad is a similiar program to Rabuz. Workers in the Tupad program, on the other hand,</p>
+            <p style="font-size: 20px;"> will receive a little sum of money to support them sustain their needs.</p>
+            </div>
+            <img class="school" src="images/tupad.jpg" alt="">
+            <div class="disc"> Cleanup Drive
+                <p style="font-size: 20px;">Its barangay is also involved in a clean-up campaign.</p>
+                <p style="font-size: 20px;">In some portions of the rice field, the focus is mostly on cleaning the irrigation system.</p>
+                <p style="font-size: 20px;">This will assist farmers in having safer passage to their rice fields and better water flow.</p>
+            </div>
+            <img class="fp" src="images/clean up drive.png" alt="">
+
+        </div>
+    </section> 
+</body>
+<style>
+    .landing h1{
+       font-size: 50px;
+       color: black;
+    }
+
+    .landing p{
+        font-size: 30px;
+    }
+
+    .landing > *{
+        color: white;
+        text-align: center;
+    }
+    .officials{
+        width: 1025px;
+    }
+    .school{
+        width: 1025px;
+    }
+    .fp{
+        width: 1025px;
+    }
+    
+    .imahe{
+        width: 54.%;
+        height: 50%;
+    }
+    .disc{
+        font-size: 50px;
+        text-align: center;
+        color: black;
+        background-color: grey;
+    }
+
+    ul{
+        margin: 0;
+    }
+    body, html{
+        height: 100%;
+        margin: 0;
+    }
+    body{
+        position: relative;
+    }
+    .background{
+        position: fixed;
+
+        height: 100%;
+        width: 100%;
+        filter: blur(3px);
+        z-index: -1;
+    }
+    .section{
+        height: 100%;
+        display: flex;  
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;      
+    }
+    .header{
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.034);
+        padding: 0.5rem;
+    }
+    .header .nav{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 5rem;
+    }
+
+    .header .list li{
+        padding: 1rem;
+    }
+    .header .list a{
+        color: black;
+        outline: none;
+        text-decoration: none;
+        font-size: 1.3rem;
+    }
+
+    .header .list{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 2rem;
+    }
+
+    .logo img{
+        width: 80px;
+    }
+
+    .list a:hover{
+        background-color: grey;
+    }
+    
+</style>
+</html>

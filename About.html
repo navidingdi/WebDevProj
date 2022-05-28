@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About</title>
+</head>
+<body>
+    <section class="section">
+        <img src="images/calabanga church.jpg" class="background"/>
+        <div class="header">
+            <div class="navbar">
+                <ul class="nav">
+                    <li>
+                        <div class="logo">
+                            <img class="seal" src="images/logo seal.png" alt="logo">
+                        </div>
+                    </li>
+                    <li>
+                        <ul class="list">
+                            <li><a href="Home.html">Home</a></li>
+                            <li><a href="About.html">About</a></li>
+                            <li><a href="Services.html">Services</a></li>
+                            <li><a href="Announcement.html">Announcement</a></li>
+                            <li><a href="Contact.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="imahe">
+            <div class="landing">
+                <h1>PAGATPAT</h1>
+                <p>Pagatpat, formerly San Jose, is a barangay in the municipality of Calabanga </p>
+                <p> in the province of Camarines Sur. </p>
+                <p>Its population as determined by the 2020 Census was 1,852.</p>
+                <p>This represented 2.08% of the total population of Calabanga.</p>
+                
+            </div>
+
+            <div class="disc"> OFFICIALS</div>
+            <img class="officials" src="images/OFFICER.jpg" alt="">
+            <div class="disc"> SCHOOL</div>
+            <img class="school" src="images/pagatpat elementary.jpg" alt="">
+            
+            <div class="disc"> FEATURED PLACES</div>
+            <img class="fp" src="images/nesting3.jpg" alt="">
+            <div>
+                
+            <img class="f" src="images/NESTING.jpg" alt="">
+            <img class="f" src="images/NESTING2.jpg" alt="">
+            </div>
+            
+
+            <div class="disc"> MIKELIZ </div>
+            <img class="mk" src="images/MIKELIZ3.jpg" alt="">
+            <div>
+  
+            <img class="m" src="images/MIKELIZ1.jpg" alt="">
+            <img class="m" src="images/MIKELIZ2.jpg" alt="">
+            <img class="m" src="images/MIKELIZ4.jpg" alt="">
+            </div>
+
+            
+        </div>
+        
+    </section>
+</body>
+<style>
+    .landing h1{
+       font-size: 50px;
+       color: black;
+    }
+
+    .landing p{
+        font-size: 30px;
+    }
+
+    .landing > *{
+        color: white;
+        text-align: center;
+    }
+
+    .mk{
+        width: 1025px;
+    }
+
+    .m{
+        width: 317px;
+        height: auto;
+        margin: 5px;
+        border: 6px double white;
+    }
+    
+    .f{
+        width: 488px;
+        height: auto;
+        margin: 5px;
+        border: 6px double white;
+    }
+    .fp{
+        width: 1025px;
+    }
+
+    .disc{
+        font-size: 50px;
+        text-align: center;
+        color: black;
+        background-color: grey;
+    }
+    .imahe{
+        width: 54.%;
+        height: 50%;
+    }
+    .school{
+        width: 1025px;
+    }
+
+    ul{
+        margin: 0;
+    }
+    body, html{
+        height: 100%;
+        margin: 0;
+    }
+    body{
+        position: relative;
+    }
+    .background{
+        position: fixed;
+
+        height: 100%;
+        width: 100%;
+        filter: blur(3px);
+        z-index: -1;
+    }
+    .section{
+        height: 100%;
+        display: flex;  
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;      
+    }
+    .header{
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.034);
+        padding: 0.5rem;
+    }
+    .header .nav{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 5rem;
+    }
+
+    .header .list li{
+        padding: 1rem;
+    }
+    .header .list a{
+        color: black;
+        outline: none;
+        text-decoration: none;
+        font-size: 1.3rem;
+    }
+
+    .header .list{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 2rem;
+    }
+
+    .logo img{
+        width: 80px;
+    }
+
+    .list a:hover{
+        background-color: grey;
+    }
+    
+</style>
+</html>
